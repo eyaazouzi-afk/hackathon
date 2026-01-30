@@ -54,8 +54,11 @@ The FinMatch system follows the steps below:
 ## File Descriptions
 # Core Python Scripts
 *chunking.py
+
 Purpose: Text chunking logic
+
 Functionality: Splits large text documents into manageable chunks
+
 Key Features:
      Configurable chunk size
      Overlap handling for context preservation
@@ -64,7 +67,9 @@ Key Features:
 *embed.py
 
 Purpose: Embedding generation
+
 Functionality: Converts text chunks into vector embeddings
+
 Key Features:
    Uses pre-trained embedding models
    Batch processing support
@@ -73,7 +78,9 @@ Key Features:
 *importingData.py
 
 Purpose: Data loading and preprocessing
+
 Functionality: Handles data import and initial processing
+
 Key Features:
    Multiple data format support
    Data validation
@@ -82,7 +89,9 @@ Key Features:
 *qdrant.py
 
 Purpose: Qdrant connection & vector insertion
+
 Functionality: Manages vector database operations
+
 Key Features:
    Database connection setup
    Vector insertion/retrieval
@@ -101,14 +110,18 @@ Key Features:
 *basedd.txt
 
 Purpose: Sample / base text data
+
 Content: Reference text for testing and demonstration
+
 Usage: Input data for processing pipeline
 
 *Frontend
 app.html
 
 Purpose: Web application interface
+
 Functionality: User interface for interacting with the system
+
 Features:
    Query input
    Results display
@@ -120,16 +133,17 @@ Features:
 *README.md
 
 Purpose: Project documentation
-Content:
 
-Project overview
-Setup instructions
-Usage guide
-API documentation
+Content:
+    Project overview
+    Setup instructions
+    Usage guide
+    API documentation
 
 *hackaton_documentation.pdf
 
 Purpose: Hackathon documentation
+
 Content: Detailed project specifications and requirements
 __________________________________________________________
 ## Quick Start 
