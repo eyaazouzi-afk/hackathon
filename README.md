@@ -106,6 +106,7 @@ Usage: Input data for processing pipeline
 
 *Frontend
 app.html
+
 Purpose: Web application interface
 Functionality: User interface for interacting with the system
 Features:
@@ -132,16 +133,16 @@ Purpose: Hackathon documentation
 Content: Detailed project specifications and requirements
 __________________________________________________________
 ## Quick Start 
-# Install dependencies
+## Install dependencies
 pip install -r requirements.txt
 
-# Import and process data
+## Import and process data
 python importingData.py
 
-# Run the main application
+## Run the main application
 python pythonfile.py
 
-# Open the web interface
+## Open the web interface
 open app.html
 
 ____________________________________________________________________________________________________________________________________________________
