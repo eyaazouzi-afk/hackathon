@@ -48,7 +48,103 @@ The FinMatch system follows the steps below:
 
 -Perform similarity search
   User queries are embedded and compared against stored vectors to retrieve the most relevant results.
-______________________________________________________________________________________________________________________________________________________________________________________________________________
+
+  
+---
+## File Descriptions
+# Core Python Scripts
+*chunking.py
+Purpose: Text chunking logic
+Functionality: Splits large text documents into manageable chunks
+Key Features:
+     Configurable chunk size
+     Overlap handling for context preservation
+     Smart splitting (respects sentences/paragraphs)
+
+*embed.py
+
+Purpose: Embedding generation
+Functionality: Converts text chunks into vector embeddings
+Key Features:
+   Uses pre-trained embedding models
+   Batch processing support
+   Vector dimension management
+   
+*importingData.py
+
+Purpose: Data loading and preprocessing
+Functionality: Handles data import and initial processing
+Key Features:
+   Multiple data format support
+   Data validation
+   Preprocessing pipeline
+
+*qdrant.py
+
+Purpose: Qdrant connection & vector insertion
+Functionality: Manages vector database operations
+Key Features:
+   Database connection setup
+   Vector insertion/retrieval
+   Collection management
+
+*pythonfile.py
+
+Purpose: Main execution / testing script
+Functionality: Orchestrates the entire workflow
+Key Features:
+   Pipeline execution
+   Testing utilities
+   Command-line interface
+
+# Data Files
+*basedd.txt
+
+Purpose: Sample / base text data
+Content: Reference text for testing and demonstration
+Usage: Input data for processing pipeline
+
+*Frontend
+app.html
+Purpose: Web application interface
+Functionality: User interface for interacting with the system
+Features:
+   Query input
+   Results display
+   Interactive components
+
+
+
+# Documentation
+*README.md
+
+Purpose: Project documentation
+Content:
+
+Project overview
+Setup instructions
+Usage guide
+API documentation
+
+*hackaton_documentation.pdf
+
+Purpose: Hackathon documentation
+Content: Detailed project specifications and requirements
+__________________________________________________________
+## Quick Start 
+# Install dependencies
+pip install -r requirements.txt
+
+# Import and process data
+python importingData.py
+
+# Run the main application
+python pythonfile.py
+
+# Open the web interface
+open app.html
+
+____________________________________________________________________________________________________________________________________________________
 ## Project Structure 
 ```text
 .
