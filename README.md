@@ -52,12 +52,12 @@ ________________________________________________________________________________
 ## Project Structure 
 ```text
 .
-├── README.md              # Project documentation
-├── basedd.txt             # Sample / base text data
-├── chunking.py            # Text chunking logic
-├── embed.py               # Embedding generation
-├── importingData.py       # Data loading and preprocessing
-├── pythonfile.py          # Main execution / testing script
-├── qdrant.py              # Qdrant connection & vector insertion
-
-
+├── README.md                    # Project documentation
+├── basedd.txt                   # Sample / base text data
+├── chunking.py                  # Text chunking logic
+├── embed.py                     # Embedding generation
+├── importingData.py             # Data loading and preprocessing
+├── pythonfile.py                # Main execution / testing script
+├── qdrant.py                    # Qdrant connection & vector insertion
+├── app.html                     # Web application interface
+└── hackaton_documentation.pdf   # Hackathon documentation
